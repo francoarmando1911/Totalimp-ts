@@ -1,0 +1,141 @@
+import type { Product } from "../types"
+
+export const db : Product[] = [
+    {
+        id: 19,
+        name: 'Costo envase de 5 litros',
+        image: '#',
+        description: 'Puede cambiarlo limpio y con tapa',
+        price: 1900,
+    },
+    {
+        id: 1,
+        name: 'Jabon liquido',
+        image: 'deterAmarillo',
+        description: '(Por 5 litros sin envase) (Especificar cual en mensaje) - ARIEL, SKIP, ALA ROJO',
+        price: 3300,
+    },
+    {
+        id: 2,
+        name: 'Jabon liquido premium',
+        image: 'premium',
+        description: '(Por 5 litros sin envase) (Especificar cual en mensaje) - ARIEL, SKIP',
+        price: 4400,
+    },
+    {
+        id: 3,
+        name: 'Jabon liquido lavado de manos',
+        image: 'jpManos',
+        description: '(Por 5 litros sin envase)',
+        price: 3300,
+    },
+    {
+        id: 4,
+        name: 'Suavizante',
+        image: 'suavizante',
+        description: '(Por 5 litros sin envase) (Especificar cual en mensaje) - CELESTE O BLANCO',
+        price: 4100,
+    },
+    {
+        id: 5,
+        name: 'Deter. Ala Ultra',
+        image: 'alaUltra',
+        description: '(Por 5 litros sin envase)',
+        price: 4600,
+    },
+    {
+        id: 6,
+        name: 'Desengrasante',
+        image: 'desengrasante',
+        description: '(Por 5 litros sin envase)',
+        price: 3200,
+    },
+    {
+        id: 7,
+        name: 'Desengrasante premium',
+        image: 'desengrasante',
+        description: '(Por 5 litros sin envase)',
+        price: 6200,
+    },
+    {
+        id: 8,
+        name: 'Cloro',
+        image: 'cloroLiquido',
+        description: '(Por 5 litros sin envase)',
+        price: 4000,
+    },
+    {
+        id: 9,
+        name: 'Lavandina',
+        image: 'deterAmarillo',
+        description: '(Por 5 litros sin envase)',
+        price: 1500,
+    },
+    {
+        id: 10,
+        name: 'Desod. pisos',
+        image: 'desos.pisos',
+        description: 'Por 5 litros sin envase (Especificar cual en mensaje) - <span style="color: green;">PINO</span>, <span style="color: purple;">LAVANDA</span>, <span style="color: green;">CITRONELA</span>, <span style="color: blue;">ARPEGG</span>, <span style="color: #90ee90;">BAMBOO</span>',
+        price: 1500,
+    },
+    {
+        id: 11,
+        name: 'Derribante',
+        image: 'derribante',
+        description: '(Por 5 litros sin envase) - LISTO PARA USAR',
+        price: 4900,
+    },
+    {
+        id: 12,
+        name: 'Cloro liquido (PILETAS)',
+        image: 'cloroLiquido',
+        description: '(Por 5 litros sin envase) - LISTO PARA USAR',
+        price: 3700,
+    },
+    {
+        id: 13,
+        name: 'Magistral limon clasico',
+        image: 'magistralLimon',
+        description: '(Por 1 litro)',
+        price: 3200,
+    },
+    {
+        id: 14,
+        name: 'Deseng. multiuso',
+        image: 'deseng',
+        description: '(Por 1 litro)',
+        price: 3200,
+    },
+    {
+        id: 15,
+        name: 'Shampoo para autos',
+        image: 'sAutos',
+        description: '(Por 1 litro)',
+        price: 1600,
+    },
+    {
+        id: 16,
+        name: 'Jabon para manos',
+        image: 'jManos',
+        description: '(Por 1 litro)',
+        price: 1600,
+    },
+    {
+        id: 17,
+        name: 'Cif crema',
+        image: 'blanco',
+        description: '(Por 1 litro) (Especificar cual en mensaje) - BAÑO/COCINA',
+        price: 3200,
+    },
+    {
+        id: 18,
+        name: 'Perfuminas',
+        image: 'perfuminas',
+        description: '(Por 1 litro) (Especificar cual en mensaje) - COCO - FLORES BLANCAS - CAROLINA HERRERA - CITRIX - AZAHAR',
+        price: 1600,
+    },
+    
+
+
+
+]
